@@ -40,20 +40,22 @@
 </head>
 <body>
   <div class="container">
-    <div class="row">
-      <div class="col-12 col-lg-auto">
+    <div class="row justify-content-center align-items-end">
+      <div class="col-auto col-lg-auto">
         <canvas id="can"></canvas>
       </div>
       <div class="col-auto col-lg-auto">
-        <div class="btn-group" role="group">
-          <button id="left-btn" class="ope-button" type="button">左</button>
-          <button id="under-btn" class="ope-button" type="button">下</button>
-          <button id="rotate-btn" class="ope-button" type="button">回転</button>
-          <button id="right-btn" class="ope-button" type="button">右</button>
+        <div class="d-block d-sm-none"><!-- スクリーンサイズがxsの時だけこの中を表示 -->
+          <div class="btn-group" role="group">
+            <button id="left-btn" class="ope-button" type="button">左</button>
+            <button id="under-btn" class="ope-button" type="button">下</button>
+            <button id="rotate-btn" class="ope-button" type="button">回転</button>
+            <button id="right-btn" class="ope-button" type="button">右</button>
+          </div>
         </div>
-      </div>
-    </div>
-  </div>
+      </div><!-- col -->
+    </div><!-- row -->
+  </div><!-- container -->
   <script src="tetris.js"></script>
 </body>
 </html>
