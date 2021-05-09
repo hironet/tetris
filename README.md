@@ -2,9 +2,11 @@
 
 ## 概要
 
-https://hironet.org/tetris/
-
 JavaScriptで作成したテトリス
+
+## デモサイト
+
+https://engineer-hiro.com/tetris/
 
 ## 技術要素
 
