@@ -6,7 +6,7 @@ JavaScriptで作成したテトリス
 
 ## デモサイト
 
-https://engineer-hiro.com/tetris/
+https://portfolio.engineer-hiro.com/tetris/
 
 ## 技術要素
 
